@@ -61,12 +61,14 @@ LeetMetric/
 ├── style.css
 ├── app.js
 └── README.md
-
+---
 ⚙️ How It Works
  1.User enters a LeetCode username
  2.App sends a GraphQL request to LeetCode
  3.Stats are fetched and displayed with animations
  4.Compare feature fetches stats for two users and highlights differences
+
+---
 
 ▶️ How to Run Locally
  1.Clone the repository
@@ -75,6 +77,7 @@ LeetMetric/
    cd LeetMetric
  3.Open index.html in your browser
    (No backend or server required)
+---
 
 🧠 Learning Outcomes
  1.Working with GraphQL APIs
@@ -83,12 +86,17 @@ LeetMetric/
  4.UI/UX improvements using CSS
  4.Local storage usage
  5.Real-world data visualization
+
+---
+
 📌 Future Improvements
  -Share progress as an image
  -Search history (last 5 users)
  -Acceptance rate comparison
  -Deploy live on GitHub Pages
  -Convert to React
+
+---
 
 👨‍💻 Author
 Sujit Yadav
