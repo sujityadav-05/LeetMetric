@@ -4,6 +4,9 @@
 LeetMetric is a web-based dashboard that visualizes **LeetCode user statistics** in a clean, interactive, and shareable format.  
 It allows users to **track progress, compare profiles, and analyze performance** using real-time data fetched from LeetCode.
 
+Live Demo
+https://sujityadav-05.github.io/LeetMetric/
+
 ---
 
 ## 🚀 Features
