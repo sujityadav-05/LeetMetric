@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <button id="theme-toggle">🌙</button>
+
+        <!-- heading
+        user
+        stats -->
+        <h1>LeetMetric</h1>
+
+        <div class="user-container">
+            <p>Enter your username below:</p>
+            <div class="user-input-container">
+                <input type="text" placeholder="enter your username here" id="user-input">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <!-- Compare Users Section -->
+        <div class="compare-container">
+            <h3>Compare Two Users</h3>
+
+            <div class="compare-inputs">
+                <input type="text" id="user1" placeholder="First username">
+                <input type="text" id="user2" placeholder="Second username">
+                <button id="compare-btn">Compare</button>
+            </div>
+
+            <div class="compare-result hidden" id="compare-result"></div>
+        </div>
+
+
+        <!-- Profile Section -->
+        <div class="profile hidden" id="profile">
+            <h3 id="profile-name"></h3>
+            <p>Total Solved: <span id="total-solved"></span></p>
+
+            <!-- Acceptance Rate -->
+            <div class="acceptance">
+                <p>Acceptance Rate: <span id="acceptance-rate"></span>%</p>
+                <div class="acceptance-bar">
+                    <div class="acceptance-fill" id="acceptance-fill"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="stats-container">
+
+
+            <div class="progress">
+
+                <div class="progress-item">
+                    <div class="easy-progress circle">
+                        <span id="easy-label"></span>
+                        <p>Easy</p>
+                    </div>
+                </div>
+
+                <div class="progress-item ">
+                    <div class="medium-progress circle">
+                        <span id="medium-label"></span>
+                        <p>Medium</p>
+                    </div>
+                </div>
+
+                <div class="progress-item ">
+                    <div class="hard-progress circle">
+                        <span id="hard-label"></span>
+                        <p>Hard</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="stats-cards">
+                <!-- directly populate card here from the JS code -->
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html> 
